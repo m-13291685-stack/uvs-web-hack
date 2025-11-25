@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UVS Web Hack</title>
+    <link rel="icon" href="A_digital_vector_illustration_showcases_a_square_a.png" type="image/png">
+    <style>
+        /* 全局样式 */
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #111;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 100;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #555;
+            border-top: 1px solid #eee;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+            .download-btn {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="A_digital_vector_illustration_showcases_a_square_a.png" alt="UVS Logo">
+        <h1>UVS Web Hack</h1>
+    </header>
+
+    <main>
+        <!-- 简介 -->
+        <section id="intro">
+            <h2>关于 UVS Web Hack</h2>
+            <p>UVS Web Hack 是一款专业的网页外挂扩展，为你提供网页游戏增强、广告清理、Dino 游戏辅助等功能。操作简便，轻松上手。</p>
+            <a class="download-btn" href="UVS_Web_Hack.zip" download>下载 UVS Web Hack (ZIP)</a>
+        </section>
+
+        <!-- 安装教学 -->
+        <section id="installation">
+            <h2>安装教学（Chrome 扩展）</h2>
+            <ol>
+                <li>下载 ZIP 文件并解压到本地文件夹。</li>
+                <li>打开 Chrome 浏览器，访问 <strong>chrome://extensions/</strong>。</li>
+                <li>开启右上角的 <strong>开发者模式</strong>。</li>
+                <li>点击 <strong>加载已解压的扩展程序</strong>，选择解压后的文件夹。</li>
+                <li>安装完成，UVS Web Hack 图标将出现在浏览器工具栏。</li>
+            </ol>
+        </section>
+
+        <!-- 更新日志 -->
+        <section id="changelog">
+            <h2>更新日志</h2>
+            <ul>
+                <li>v1.0.0 - 初始版本，包含网页增强、广告清理、Dino 游戏辅助功能。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        ·made by 宏恩
+    </footer>
+</body>
+</html>
